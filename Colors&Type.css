@@ -1,5 +1,66 @@
 body {
-	width:1440px;
-	height: 900px;
 	background-color:#FFFFFF;
+}
+.container{
+	width: 1440px;
+	height: 900px;
+}
+.logo{
+	width:48px;
+	height:48px;
+	margin-top:30px;
+	margin-left:30px;
+	float:left;
+}
+.colors{
+	width:281,26px;
+	height: 610px;
+	margin-top:145px;
+	margin-left: 149.74px;
+	float:left;
+	font-family: Montserrat,sans-serif;
+	font-size:19px;
+	color: #1F2041;
+	}
+.colors span{
+	font-family: Quicksand;
+}
+.colors img {
+	float:left;
+	padding-right: 40px;
+	width: 70px;
+	height: 70px;
+}
+.headline{
+	width:436px;
+	height:321px;
+	margin:145px 158px 434px 846px;
+	float:right;
+	font-family: Montserrat,sans-serif;
+	position: absolute;
+	}
+.headline span{
+	color: rgba(31, 32, 65, 0.25); 
+	float:left;
+	padding-right:30px;
+	text-align: right;
+	}
+.one{
+	font-size: 24px;
+	line-height: 29px;
+}
+.two{
+	font-size: 19px;
+	line-height: 23.16px;
+}
+.three{
+	font-size: 12px;
+	line-height: 14.63px;
+}
+.four{
+	font-size: 14px;
+	line-height: 24px;
+	}
+#four{
+	color: rgba(31, 32, 65, 0.75);
 }
