@@ -12,7 +12,7 @@ header{
 	height:70px;
 }
 .container{
-	font-weight: bold;
+	font-weight: bolder;
 }
 .clearfix:after {
 content:'';
@@ -40,9 +40,9 @@ clear: both;
 	padding-bottom: 13.72px;
 }
 nav{
-	width:446px;
+	width:500px;
 	height: 21px;
-	margin-left:531px;
+	margin-left:480px;
 	}
 .menu li {
 	float:left;
@@ -56,6 +56,22 @@ nav{
 	color: rgba(31, 32, 65, 0.5);
 	font-size: 14px;
 }
+.item {
+	float:left;
+}
+.material-icons {
+	width: 24px; 
+	height:21px;
+	font-size: 24px;
+	float: right;
+}
+.buttons{
+	width: 303px;
+	height: 34px;
+	float: right;
+	margin-right: 160px;
+
+		}
 .buttons a{
 	display:block;
 	justify-content: space-around;
@@ -67,7 +83,6 @@ nav{
 	margin: 0 auto;
 	border-radius: 22px;
 	padding-top: 9px;
-	float: right;
 }
 .button1 {
 	background: #FFFFFF;
@@ -75,16 +90,14 @@ nav{
 	border:2px solid rgba(139,164,249,1);
 	width:87px;
 	height: 34px;
-	margin-left: 997px;
-	margin-right: 356px;
-	
-	}
+	float: left;
+		}
 .button2{
 	background:linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
 	color: rgba(255,255,255,1);
 	width: 196px;
 	height:34px;
-	
+	float: right;
 }
 section {
 	}
