@@ -4,9 +4,127 @@
 		<title>Card</title>
 		<meta charset ="utf-8">
 		<link href="cards.css" type="text/css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 	</head>
 	<body>
-		<div>
+		<header>
+			<img  class="logo" src="img/Group.png">
+		</header>
+		<div class="container">
+			<div class="column">
+				<div class="search">
+						<fieldset>
+							<h3>Найдём номера под ваши пожелания</h3>
+							<div class="days clearfix">
+							<label class="comein">ПРИБЫТИЕ<br>
+								<form action="#">
+									<input type="date" placeholder="ДД.ММ.ГГГГ"><a href="#"><span class="material-icons"> expand_more</span></a>
+								</form>
+							</label>		
+							<label class="comeout">ВЫЕЗД<br>
+								<form action="#">
+									<input type="date" placeholder="ДД.ММ.ГГГГ"><a href="#"><span class="material-icons"> expand_more</span></a>
+								</form>
+							</label>
+							</div>
+							<div class ="guests">
+								<label>ГОСТИ<br>
+									<form action="#">
+										<select name="quantity" > 
+											<option value="1" selected="selected">Сколько гостей"</option>
+											<option value="2">3 гостя</option>
+											<option value="3">2 гостя</option>
+											<option value="4">1 гость</option>
+										</select>
+									<a href="#"><span class="material-icons">expand_more</span></a>
+									</form>
+								</label>
+							</div>
+							<div class="btn">
+								<a class="btn1" href="#">Подобрать номер <a class="material-icons" href="#"> 
+							 arrow_forward</a></a>
+							</div>
+						</fieldset>
+							
+				</div>	
+				<div class="check-in">
+					<fieldset class="check-in__area">
+						<h3>Регистрация аккаунта</h3>
+							<form action="#">
+								<input type="text"name="name" placeholder="Имя">
+								<input type="text"name="name" placeholder="Фамилия">
+							</form>
+					</fieldset>
+				</div>
+			</div>	
+			<div class="purchase">
+				<fieldset class="purchase__area">
+					<div class="name_number">
+						<h3>№888<span class="lux">ЛЮКС</span></h3>
+						<p class="price"><span class="total_price">9 990₽</span> в сутки</p>
+					</div>
+						<div class="days clearfix">
+						<label class="comein">ПРИБЫТИЕ<br>
+							<form action="#">
+								<input type="date" placeholder=""><a href="#"><span class="material-icons"> expand_more</span></a>
+							</form>
+						</label>		
+						<label class="comeout">ВЫЕЗД<br>
+							<form action="#">
+								<input type="date" placeholder=""><a href="#"><span class="material-icons"> expand_more</span></a>
+							</form>
+						</label>
+						</div>
+						<div class ="guests">
+							<label>ГОСТИ<br>
+								<form action="#">
+									<select name="quantity" > 
+										<option value="2"selected="selected">3 гостя</option><option value="1" >Сколько гостей"</option>
+										<option value="3">2 гостя</option>
+										<option value="4">1 гость</option>
+									</select>
+								<a href="#"><span class="material-icons">expand_more</span></a>
+								</form>
+							</label>
+						</div>
+						<div class="calculation">
+							<table class="calculation__price">
+								<tr>
+									<td class="calculation__payment">9 990₽ х 4 суток</td>
+									<td class="calculation__amount">39 960₽</td>
+								</tr>
+								<tr>
+									<td class="calculation__payment">Сбор за услуги: скидка 2 179₽
+									<div class="calculation__elipse">i</div>
+									</td>
+									<td class="calculation__amount">0₽</td>
+								</tr>
+								<tr>
+									<td class="calculation__payment">Сбор за дополнительные <br> услуги
+										<div class="calculation__elipse calculation__elipse_distance">i</div></td>
+									<td class="calculation__amount">300₽</td>
+								</tr>
+								<tr class="calcultion__payment_font" >
+									<td class="calculation__payment calculation__payment_width calculation__payment_indent">Итого
+										<div class="calculation__line"></div></td>
+									<td class="calculation__amount  calculation__amount_width calculation__payment_indent">38 081₽</td>
+								</tr>
+							</table>
+						</div>
+						<div class="btn">
+							<a class="btn1" href="#">Забронировать <a class="material-icons" href="#"> 
+						 arrow_forward</a></a>
+						</div>
+					</fieldset>
+			</div>
+			<div class="input">
+			</div>
+			<div class="calendar">
+			</div>
+			<div class="picture">
+			</div>
 		</div>
 	</body>
 </html>
