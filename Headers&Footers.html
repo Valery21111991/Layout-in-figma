@@ -3,10 +3,122 @@
 	<head>
 		<title>Headers&Footers</title>
 		<meta charset ="utf-8">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+		<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
 		<link href="Headers&Footers.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
-		<div>
-		</div>
+		<header class="header center">
+			<img  class="header__logo" src="img/Group.png">
+		</header>
+		<section class="section center">
+			<div class="main-menu">
+				<div class="main-menu__logo menu">
+					<img class="main-menu__picture1" src="img/logo.svg" alt="logo">
+					<img class="main-menu__picture2" src="img/toxin.svg" alt="logo">
+				</div>
+				<nav>
+					<ul class="main-menu__list">
+						    <li class="main-menu__item"><a href="#">О нас</a></li>
+						    <li class="main-menu__item"><a href="#">Услуги</a>
+						    <a href="#"><span class="material-icons"> expand_more</span></a></li>
+						    <li class="main-menu__item"><a href="#">Вакансии</a></li>
+						    <li class="main-menu__item"><a href="#">Новости</a></li>
+						    <li class="main-menu__item"><a href="#">Соглашения</a>
+						    <a href="#"><span class="material-icons"> expand_more</span></a></li>
+					</ul>
+				</nav>
+				<div class="btns">
+						<a href="#" class="btns__btn"></a>
+						<a href="#" class="btns__btn_big">зарегистрироваться</a>
+				</div>	
+			</div>
+		</section>
+		<section class="section site-menu center">
+			<div class="main-menu ">
+				<div class="main-menu__logo menu">
+					<img class="main-menu__picture1" src="img/logo.svg" alt="logo">
+					<img class="main-menu__picture2" src="img/toxin.svg" alt="logo">
+				</div>
+				<nav>
+					<ul class="main-menu__list site-menu__list">
+						    <li class="main-menu__item"><a href="#">О нас</a></li>
+						    <li class="main-menu__item"><a href="#">Услуги</a>
+						    <a href="#"><span class="material-icons"> expand_more</span></a></li>
+						    <li class="main-menu__item"><a href="#">Вакансии</a></li>
+						    <li class="main-menu__item"><a href="#">Новости</a></li>
+						    <li class="main-menu__item"><a href="#">Соглашения</a>
+						    <a href="#"><span class="material-icons"> expand_more</span></a></li>
+					</ul>
+				</nav>
+				<div class="main-menu__cabinet">
+					<a href="#">Юлий Цезарь</a>
+				</div>
+			</div>
+		</section>
+		<section class="section center detailed-menu">
+			<div class="detailed-menu__info">
+				<div class="detailed-menu__logo menu">
+					<img class="main-menu__picture1" src="img/logo.svg" alt="logo">
+					<img class="main-menu__picture2" src="img/toxin.svg" alt="logo">	
+				</div>
+				<p class="detailed-menu__text">Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»</p>
+			</div>
+			<div class="detailed-menu__block">
+				<ul class="detailed-menu__list">
+					<li class="detailed-menu__item detailed-menu__item_color">навигация</li>
+					<li class="detailed-menu__item">О нас</li>
+					<li class="detailed-menu__item">Новости</li>
+					<li class="detailed-menu__item">Служба поддержки</li>
+					<li class="detailed-menu__item">Услуги</li>
+				</ul>
+				<ul class="detailed-menu__list">
+					<li class="detailed-menu__item detailed-menu__item_color">о нас</li>
+					<li class="detailed-menu__item">О сервисе</li>
+					<li class="detailed-menu__item">Наша команда</li>
+					<li class="detailed-menu__item">Вакансии</li>
+					<li class="detailed-menu__item">Инвесторы</li>
+				</ul>
+				<ul class="detailed-menu__list">
+					<li class="detailed-menu__item detailed-menu__item_color">Служба поддержки</li>
+					<li class="detailed-menu__item">Соглашения</li>
+					<li class="detailed-menu__item">Сообщества</li>
+					<li class="detailed-menu__item">Связь с нами</li>
+				</ul>
+				<ul class="detailed-menu__list">
+					<li class="detailed-menu__item detailed-menu__item_color">Подписка</li>
+					<p class="detailed-menu__item detailed-menu__item_text">Получайте специальные предложения и новости сервиса</p>
+					<form class="detailed-menu__list_form" action="#"> 
+					<input class="detailed-menu__list_input" type="email" name="mail" placeholder="E-mail"  required>
+					 <a class="material-icons detailed-menu__list_icon" href="#"> 
+					 arrow_forward</a>
+				</form>
+				</ul>
+			</div>
+		</section>
+		<footer class="section center footer">
+			<p class="footer__text">Copyright &copy 2018 Toxin отель. Все права защищены.</p>
+			<div class="social_network">
+					<i class="fab fa-twitter footer-social-network__fab"></i>
+					<i class="fab fa-facebook-square footer-social-network__fab"></i>
+					<i class="fab fa-instagram footer-social-network__fab"></i>
+				</div>
+		</footer>
+		<footer class="section center footer-social-network">
+			<div class="footer-social-network__block">
+				<div class="detailed-menu__logo menu">
+					<img class="main-menu__picture1" src="img/logo.svg" alt="logo">
+					<img class="main-menu__picture2" src="img/toxin.svg" alt="logo">	
+				</div>
+				<p class="footer__text footer__text_distanse">Copyright &copy 2018 Toxin отель. Все права защищены.</p>
+				<div class="social_network footer-social-network__social_network">
+					<i class="fab fa-twitter footer-social-network__fab"></i>
+					<i class="fab fa-facebook-square footer-social-network__fab"></i>
+					<i class="fab fa-instagram footer-social-network__fab"></i>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

@@ -1,5 +1,4 @@
 body{
-	
 	background-color:#F4F4F6;
 	font-family: Montserrat;
 	
@@ -20,6 +19,7 @@ header {
 }
 .search {
 	background: #FFFFFF;
+	width: 380px;
 }
 .days form {
 	margin-top:6px;
@@ -282,6 +282,7 @@ clear: both;
 
 .check-in {
 	margin-top: 40px;
+	width: 380px;
 }
 
 .check-in__data {
@@ -614,14 +615,12 @@ input:checked + .offer__slider:before {
 .calendar__day_cicle-today{
 	color:#fff;
 	border-radius:22px;
-	border: 1px solid rgba(31, 32, 65, 0.25);
 	box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 	background:linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
 } 
 
 .calendar__day_cicle{
-	border: 1px solid rgba(31, 32, 65, 0.25);
-    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+	box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 	color:#fff;
 	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
 	border-radius: 22px;
